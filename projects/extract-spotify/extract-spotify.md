@@ -7,8 +7,7 @@ permalink: /extract-spotify/
 _**[View the project on Github](https://github.com/brainuser5705/extract-spotify)**_
 
 #### **Try it out**
-Here is the [website](https://extract-spotify.  
-herokuapp.com/app).    
+Here is the [website](https://extract-spotify.herokuapp.com/app).    
 *Note*: The website will take a website to load because I am hosting with a free dyno on Heroku.    
 ---   
 **Instructions**
