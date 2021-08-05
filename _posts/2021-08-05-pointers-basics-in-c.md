@@ -7,7 +7,7 @@ categories: programming
 
 *I am currently learning pointers in my C journey. It was a bit hard to grasp at first, especially when tutorials omit key concepts. I did more studying and looked at other references, so here is my best attempt at explaining how pointers work in C.*
 
-*If you find any errors, please leave an issue of the Github repository.*
+*If you find any errors, please leave an issue on the Github repository.*
 
 ---
 Pointers are **variables that reference other variables by storing their memory address**. 
@@ -95,11 +95,7 @@ When working with classes and objects, you need to make variables that store the
     This class represents a pointee (or memory space).
 */
 class IntPointee(){
-    int value;
-
-    public IntPointee(int value){
-        this.value = value;
-    }
+    public int value;
 }
 
 /**
