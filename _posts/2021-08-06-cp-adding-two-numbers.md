@@ -23,7 +23,7 @@ class Solution {
         boolean overTen = false;
         
         // You keep adding new nodes if there are still nodes to go through and if you need to add an extra one because of carry over
-        while (l1 != null || l2 != null || overTen){
+        while (l1 != null || l2 != null || overTen /* (7) */){
             
             /* (4) (5) */
             // Creates a new current node
@@ -126,6 +126,11 @@ class Solution {
             if (l2 != null) l2 = l2.next;
     
         }
+
+        /* (7) */
+        if (overTen > 0) {
+            currentNode.next = new ListNode(overTen);
+        }
         
         return firstNode.next;
         
@@ -151,8 +156,11 @@ Overall the approach is the same: go through the list, get the digit and make th
 ### Moving on to next node
 6. Check the current node, then assign instead of checking the next node then assign.
 
+### Extra carry digit
+7. Create the new carry digit with the same process: make the new node with a constructor and assign it `currentNode.next` (4). In my code, if the boolean `overTen` was still true, it would make another node.
+
 ---
 
-## Major takeaways:
+## Major Takeaways
 1. Use a dummy node to keep track of first node.
 2. In the same concept, get the value for the next node and then assign the new node using its constructor rather than making the current node first then assigning its value.
