@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CP: Two Sums"
+title: "cp: Two Sums"
 categories: cp programming
 ---
 
