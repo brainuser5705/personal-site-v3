@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Making Pong with Pygame
+title: "makes: Making Pong with Pygame"
 categories: programming
 ---
 

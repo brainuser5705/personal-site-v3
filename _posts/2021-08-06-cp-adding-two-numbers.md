@@ -6,7 +6,7 @@ categories: cp progamming
 
 *[Leetcode]()*
 
-## My Inital Solution
+## My Solution
 ```java
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
